@@ -1,0 +1,102 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:textColor="#1E88E5"
+        android:textSize="30dp"/>
+    <TableLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="35dp"
+        android:stretchColumns="1"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <TableRow>
+        <TextView
+            android:text="WORKER ID:"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#070606"/>
+        <EditText
+            android:textColor="#070808"
+            android:id="@+id/id1"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:layout_height="50dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="WORKER NAME:"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#0B0A0A"/>
+            <EditText
+                android:textColor="#070808"
+                android:textSize="20dp"
+                android:id="@+id/id2"
+                android:inputType="textPersonName"
+                android:layout_height="50dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="ADDRESS"
+                android:textSize="20dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#080808"/>
+            <EditText
+                android:textColor="#070808"
+                android:textSize="20dp"
+                android:id="@+id/id3"
+                android:inputType="text"
+                android:layout_height="50dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="PHONE NO:"
+                android:textSize="20dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#0F0E0E"/>
+            <EditText
+                android:textColor="#070808"
+                android:textSize="20dp"
+                android:id="@+id/id4"
+                android:inputType="phone"
+                android:layout_height="50dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="EMAIL ID:"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#0C0C0C"/>
+            <EditText
+                android:textColor="#070808"
+                android:textSize="20dp"
+                android:id="@+id/id5"
+                android:inputType="textEmailAddress"
+                android:layout_height="50dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="DESIGNATION:"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#141212"/>
+            <EditText
+                android:textColor="#070808"
+                android:textSize="20dp"
+                android:id="@+id/id6"
+                android:inputType="number"
+                android:layout_height="50dp"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+

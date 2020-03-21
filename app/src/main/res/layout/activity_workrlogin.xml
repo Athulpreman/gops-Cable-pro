@@ -1,0 +1,63 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="188dp"
+        android:background="@drawable/k1"
+        android:layout_marginTop="-200dp"/>
+
+    <EditText
+        android:id="@+id/adid"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="wrkr id no"
+        android:textColorHint="#080808"
+        android:textColor="#121111"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"
+        android:textSize="25dp"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/adpass"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="PASSWORD"
+        android:textColorHint="#0E0D0D"
+        android:textColor="#080808"
+        android:textAlignment="center"
+        android:layout_marginTop="24dp"
+        android:textSize="25dp"
+        android:inputType="textPassword"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="25dp"
+        android:layout_marginRight="99dp"
+        android:id="@+id/re"
+        android:textColor="#000">
+    </TextView>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="forgot?"
+    android:textSize="25dp"
+    android:layout_marginLeft="99dp"
+        android:id="@+id/fo"
+        android:layout_marginTop="-34dp"
+    android:textColor="#000">
+
+</TextView>
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="28dp"
+        android:layout_marginTop="24dp"
+        android:text="Login"
+        android:background="@drawable/btdes"/>
+
+</LinearLayout>

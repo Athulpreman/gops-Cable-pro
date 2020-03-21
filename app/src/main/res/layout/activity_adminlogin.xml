@@ -1,0 +1,43 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="188dp"
+        android:background="@drawable/k1"
+        android:layout_marginTop="-100dp"/>
+
+    <EditText
+        android:id="@+id/adid"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="admin ID"
+        android:textColorHint="#080808"
+        android:textColor="#121111"
+        android:textAlignment="center"
+        android:layout_marginTop="24dp"
+        android:textSize="25dp"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/adpass"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="PASSWORD"
+        android:textColorHint="#0E0D0D"
+        android:textColor="#080808"
+        android:textAlignment="center"
+        android:layout_marginTop="24dp"
+        android:textSize="25dp"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="28dp"
+        android:layout_marginTop="24dp"
+        android:text="Login"
+        android:background="@drawable/btdes"/>
+
+</LinearLayout>

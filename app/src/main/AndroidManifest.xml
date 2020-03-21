@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anugrah.cbcms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/k1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/k1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WrrkCulist"></activity>
+        <activity android:name=".AreasearchAd" />
+        <activity android:name=".Unewpasswrd" />
+        <activity android:name=".Uotp" />
+        <activity android:name=".Upasswrd" />
+        <activity android:name=".Wnewpasswrd" />
+        <activity android:name=".Otp" />
+        <activity android:name=".wrkrstatus" />
+        <activity android:name=".Ucomplnt" />
+        <activity android:name=".Uprofile" />
+        <activity android:name=".Unotifictn" />
+        <activity android:name=".Usrpage" />
+        <activity android:name=".dummy" />
+        <activity android:name=".Movetounsolved" />
+        <activity android:name=".Movetofix" />
+        <activity android:name=".Worknotification" />
+        <activity android:name=".Wprofile" />
+        <activity android:name=".Wpasswrd" />
+        <activity android:name=".AWorkrlist" />
+        <activity android:name=".Aviewcomplaints" />
+        <activity android:name=".Workrpage" />
+        <activity
+            android:name=".Workrlogin"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Viewusrandwrkr" />
+        <activity android:name=".Viewcomplts" />
+        <activity android:name=".Usrlogin" />
+        <activity android:name=".Notification" />
+        <activity android:name=".Adminpage" />
+        <activity android:name=".Adminlogin" />
+        <activity android:name=".Addnewwokr" />
+        <activity android:name=".Addnewusr" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
